@@ -13,8 +13,37 @@ Accurate prediction of Arctic Sea Ice Thickness (SIT) is a cornerstone of global
 * **Advancing physics-informed machine learning** specifically within the domain of sea ice modeling.
 * **Improving transparency and interpretability** of deep learning models for reliable decision-making.
 
-## ## Dependency
-Before running the code, make sure to install the necessary dependencies. **PyTorch** is used for GPU-accelerated tensor operations and neural network functionalities.
+## Dependencies
+
+To ensure reproducibility, this project requires specific Python libraries for image processing, tensor manipulation, and environmental data analysis. The code was tested using **Python 3.10.12**, but it is compatible with other Python 3.x versions.
+
+### Required Libraries
+
+* **torch**: Used for GPU-accelerated tensor operations and neural network functionalities.
+    * *Installation:* `pip install torch`
+    * *For CUDA support:* `pip install torch --extra-index-url https://download.pytorch.org/whl/cu117`
+* **opencv-python (cv2)**: Utilized for reading and processing image data.
+    * *Installation:* `pip install opencv-python`
+* **numpy**: Support for large, multi-dimensional arrays and matrices.
+    * *Installation:* `pip install numpy`
+* **matplotlib**: Used for data visualization and displaying processed images.
+    * *Installation:* `pip install matplotlib`
+* **netCDF4**: Essential for handling NetCDF files (environmental/atmospheric data).
+    * *Installation:* `pip install netCDF4`
+* **xarray**: Simplifies working with labeled multi-dimensional arrays.
+    * *Installation:* `pip install xarray`
+* **pandas**: Used for data manipulation and analysis of tabular data.
+    * *Installation:* `pip install pandas`
+* **scipy**: Provides additional scientific and statistical computing functions.
+    * *Installation:* `pip install scipy`
+* **glob**: (Standard Library) Used for file pattern matching; no installation required.
+
+### Installation Summary
+
+To install all required packages at once, run:
+```bash
+pip install torch opencv-python numpy matplotlib netCDF4 xarray pandas scipy
+
 ## References
 
 [1] A. Sampath, O. Faruque, A. Khan, V. Janeja and J. Wang, "Physics-Informed Machine Learning for Sea Ice Thickness Prediction," 2024 IEEE International Conference on Knowledge Graph (ICKG), Abu Dhabi, United Arab Emirates, 2024, pp. 325-333. doi: [10.1109/ICKG63256.2024.00048](https://doi.org/10.1109/ICKG63256.2024.00048).
