@@ -1,9 +1,21 @@
+## Introduction
+Accurate prediction of Arctic Sea Ice Thickness (SIT) is a cornerstone of global climate modeling, yet it remains one of the most challenging variables to project. Traditional numerical models are computationally expensive and often struggle with sub-grid scale parameterizations, while 'black-box' deep learning models frequently violate fundamental physical laws, such as energy conservation. My work bridges this gap by developing a Physics-Informed Machine Learning (PIML) framework. 
+## Background
+# Physics-informed machine learning for sea ice thickness prediction (PhySIT)
 
+### Core Features
+* **Proposed hybrid architecture** based on recurrent neural networks (RNNs) for nonlinear spatio-temporal modeling.
+* **Integration of Kolmogorov–Arnold Networks (KAN)** to capture complex nonlinear relationships.
+* **Framework named PhySIT** (Physics-informed machine learning for sea ice thickness prediction).
+* **Use of Layer-Wise Relevance Propagation (LRP)** to improve model interpretability.
+* **Enables understanding** of how physics-based features influence predictions.
 
-** The dataset for this project is publicly available and can be accessed at (https://zenodo.org/records/14752305)**
+### Contributions
+* **Advancing physics-informed machine learning** specifically within the domain of sea ice modeling.
+* **Improving transparency and interpretability** of deep learning models for reliable decision-making.
 
-** The reference for the sea ice model data can be found at https://gmd.copernicus.org/articles/12/3745/2019/ **
-
+## ## Dependency
+Before running the code, make sure to install the necessary dependencies. **PyTorch** is used for GPU-accelerated tensor operations and neural network functionalities.
 ## References
 
 [1] A. Sampath, O. Faruque, A. Khan, V. Janeja and J. Wang, "Physics-Informed Machine Learning for Sea Ice Thickness Prediction," 2024 IEEE International Conference on Knowledge Graph (ICKG), Abu Dhabi, United Arab Emirates, 2024, pp. 325-333. doi: [10.1109/ICKG63256.2024.00048](https://doi.org/10.1109/ICKG63256.2024.00048).
