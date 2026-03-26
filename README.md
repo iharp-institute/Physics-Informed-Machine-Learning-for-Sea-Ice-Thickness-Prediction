@@ -38,8 +38,6 @@ To ensure reproducibility, this project requires specific Python libraries for i
     * *Installation:* `pip install scipy`
 * **glob**: (Standard Library) Used for file pattern matching; no installation required.
 
-### Installation Summary
-
 To install all required packages at once, run:
 ```bash
 pip install torch opencv-python numpy matplotlib netCDF4 xarray pandas scipy
