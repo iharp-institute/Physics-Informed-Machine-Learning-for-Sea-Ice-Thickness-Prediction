@@ -1,7 +1,7 @@
 # Physics-informed machine learning for sea ice thickness prediction (PhySIT)
-## Introduction
+## Objective
 Accurate prediction of Arctic Sea Ice Thickness (SIT) is a cornerstone of global climate modeling, yet it remains one of the most challenging variables to project. Traditional numerical models are computationally expensive and often struggle with sub-grid scale parameterizations, while 'black-box' deep learning models frequently violate fundamental physical laws, such as energy conservation. My work bridges this gap by developing a Physics-Informed Machine Learning (PIML) framework. 
-## Background
+## 
 ### Core Features
 * **Proposed hybrid architecture** based on recurrent neural networks (RNNs) for nonlinear spatio-temporal modeling.
 * **Integration of Kolmogorov–Arnold Networks (KAN)** to capture complex nonlinear relationships.
